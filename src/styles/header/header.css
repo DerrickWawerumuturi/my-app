@@ -1,0 +1,42 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  margin-top: -25px;
+  height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header-container .header-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-container .header-title {
+  margin-top: 25px;
+}
+.header-container .header-items {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+}
+.header-container .header-items button {
+  background: none;
+  cursor: pointer;
+  outline: inherit;
+  font: inherit;
+  border: none;
+  padding: 0;
+}
+.header-container .header-items li {
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+.header-container .header-items li:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}/*# sourceMappingURL=header.css.map */

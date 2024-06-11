@@ -1,0 +1,81 @@
+.about-section {
+    margin-top: 70px;
+    text-align: left;
+    padding: 0 20px;
+    margin-left: 225px;
+    margin-right: auto;
+    max-width: 800px;
+
+    .about-title {
+        text-align: center;
+    }
+    .about-text {
+        margin-bottom: 20px;
+    }
+
+    .about-skills {
+        h3, h4, h5 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            column-count: 2;
+            column-gap: 5px;
+            padding-left: 20px;
+            position: relative;
+            max-width: 230px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-bottom: 15px;
+        }
+        li {
+            list-style-type: none;
+            padding: 10px 50px 10px 12px;
+            font-size: 12pt;
+            line-height: 24px;
+            font-weight: 500;
+            margin:0px 60px 0px 0px;
+            text-shadow: 1px  1px 0px black, 9px 8px 0px rgba(0,0,0,0.15);
+            transition: all 0.1s linear;
+
+            &::after {
+                position: absolute;
+                bottom: 5px;
+                right: 10%;
+                width: 100%;
+                height: 2px;
+                content: "";
+                transition: all 0.2s ease-in-out;
+            }
+
+            &:hover {
+                background: #ccc;
+                border-radius: 10px;
+                color: black;
+                cursor: pointer;
+                text-shadow: none;
+                transition: all 0.1s linear;
+            }
+            &::marker {
+                animation: idle 8s linear infinite;
+            }
+        }
+
+
+    } 
+
+
+    
+}
+
+
+@media (max-width:1200px) {
+    .about-section {
+        padding: 0 60px;
+        max-width: 100%;
+        margin-left: auto;
+    }
+}
+
+//testing

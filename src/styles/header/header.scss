@@ -1,0 +1,49 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    margin-top: -25px;
+    height: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .header-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header-title {
+        margin-top: 25px;
+        // font-size: 18px;
+    }
+
+    .header-items {
+        display: flex;
+        margin-top: 30px;
+        align-items: center;
+        list-style-type: none;
+        gap: 20px;
+        button {
+                background: none;
+                cursor: pointer;
+                outline: inherit;
+                font: inherit;
+                border: none;
+                padding: 0;
+            }
+    }    
+    .header-items li {
+        cursor: pointer;
+        padding: 8px 12px;
+        transition: background-color 0.3s;
+        &:hover {
+            background-color: #575757;
+            border-radius: 4px;
+        }
+    }
+
+    
+}
