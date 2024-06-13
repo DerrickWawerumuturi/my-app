@@ -7,9 +7,14 @@
 
     .hero-text {
         margin-left: 200px;
-
+        
         h2 {
             display: inline-block;
+            font-size: 48px;
+        }
+
+        h3 {
+            font-size: 45px;
         }
         span {
             color: red;
@@ -34,8 +39,7 @@
         .blog-link {
         display: block;
         align-self: flex-start;
-        background-color: #fff;
-        color: black;
+        background-color: transparent;
         border: 2px solid red ;
         margin-top: 20px;
         margin-left: 250px;

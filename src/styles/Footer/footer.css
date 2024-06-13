@@ -1,15 +1,75 @@
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+.footer-container {
+  background-color: #c8e3f5;
+  margin-top: 60px;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
   text-align: center;
-  font-weight: 50px;
+}
+.footer-container .footer-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-container .footer-about .copyright {
+  padding-top: 50px;
+  color: #737e90;
+}
+.footer-container .footer-about .rights {
+  color: #737e90;
+}
+.footer-container .footer-about h2 {
+  cursor: pointer;
+  color: #4433FF;
+}
+.footer-container .footer-subjects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer-container .footer-tutorials {
+  width: 12.5rem;
+}
+.footer-container .footer-tutorials .langs {
+  cursor: pointer;
+  display: grid;
+  margin-left: 50px;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px;
+}
+.footer-container .footer-tutorials .langs .space {
+  padding-bottom: 10px;
+}
+.footer-container .footer-tutorials .langs .css {
+  margin-right: 13px;
+}
+.footer-container .footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-container .footer-links .socials {
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.footer-container .footer-links a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+}
+.footer-container h3 {
+  color: #737e90;
+  font-weight: 300;
 }
 
 @media (max-width: 1200px) {
-  footer {
-    text-align: right;
-    margin-left: 30px;
+  .footer-container {
+    text-align: left;
+    padding: 30px;
+  }
+  .footer-container .footer-tutorials .langs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 4px;
   }
 }/*# sourceMappingURL=footer.css.map */

@@ -13,6 +13,9 @@ body, ul {
   justify-content: space-around;
   align-items: center;
 }
+.header-container .wave {
+  background: radial-gradient(ellipse at center, rgb(116, 241, 252) 0%, rgb(50, 230, 255) 73%, rgb(21, 199, 250) 100%);
+}
 .header-container .header-title {
   margin-top: 25px;
 }

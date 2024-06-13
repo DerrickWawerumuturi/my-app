@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/Hero/Hero.css";
-import myImage from "../../images/derrick muturi profile.jpg";
+// import myImage from "../../images/derrick muturi profile.jpg";
 import Button from '@mui/material/Button';
 
 
@@ -16,14 +16,13 @@ function Hero() {
                 <div className="hero-text">
                     <h2> ⸻ Hello</h2>
                     <h3>I'm <span>Derrick</span> Muturi</h3>
-                    <p className="hero-brief">This is Derrick Muturi, a software Engineer and Web developer
-                        located in Nairobi, Kenya
+                    <p className="hero-brief">Software Engineer and Web developer
                     </p>
                 </div>
                 
-                <div className="hero-image">
+                {/* <div className="hero-image">
                     <img src={myImage} alt="Derrick Muturi" height="300" width="300"/>
-                </div>
+                </div> */}
             </div>
         <Button variant="contained" className="blog-link">I also write sometimes</Button>
         </div>

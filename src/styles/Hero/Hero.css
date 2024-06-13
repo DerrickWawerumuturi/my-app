@@ -10,6 +10,10 @@
 }
 .hero-section .hero-text h2 {
   display: inline-block;
+  font-size: 48px;
+}
+.hero-section .hero-text h3 {
+  font-size: 45px;
 }
 .hero-section .hero-text span {
   color: red;
@@ -28,8 +32,7 @@
 .hero-container .blog-link {
   display: block;
   align-self: flex-start;
-  background-color: #fff;
-  color: black;
+  background-color: transparent;
   border: 2px solid red;
   margin-top: 20px;
   margin-left: 250px;
